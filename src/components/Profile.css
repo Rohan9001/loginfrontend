@@ -1,0 +1,29 @@
+/* NameCard.css */
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 85vh;
+    background-color: #f7f7f7;
+  }
+  
+  .name-card {
+    
+    background-color: #0bcbe9;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .greeting {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+
+  

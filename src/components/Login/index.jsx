@@ -17,6 +17,7 @@ const Login = () => {
 			const url = "https://login-register-qf6k.onrender.com/api/auth";
 			const { data: res } = await axios.post(url, data);
 			localStorage.setItem("token", res.data);
+			localStorage.setItem("user",JSON.stringify(res.user));
 			window.location = "/";
 		} catch (error) {
 			if (
